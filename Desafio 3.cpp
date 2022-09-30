@@ -5,7 +5,6 @@ using namespace std;
 int main()
 {
    
-    
     float nota1, nota2, nota3, nota4;
 
     cout << "Digite a primeira nota: " << endl;
