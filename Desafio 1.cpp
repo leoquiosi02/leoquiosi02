@@ -1,8 +1,9 @@
-#include <iostream>
+    #include <iostream>
 
-using namespace std;
+    using namespace std;
 
-int main(){
+    int main()
+    {
 
     float valor_produto, valor_pago = 0.0;
 
@@ -22,4 +23,4 @@ int main(){
 
     return 0;
 
-}
+    }
