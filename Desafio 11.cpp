@@ -1,16 +1,16 @@
-#include <iostream>
+    #include <iostream>
 
-using namespace std;
+    using namespace std;
 
-bool Operacao_valida(char operacao){
-bool valida = operacao == '+' ||
-              operacao == '-' ||
-              operacao == '*' ||
-              operacao == '/';
-    return valida;
-}
+    bool Operacao_valida(char operacao){
+    bool valida = operacao == '+' ||
+                  operacao == '-' ||
+                  operacao == '*' ||
+                  operacao == '/';
+        return valida;
+    }
 
-int main(){
+    int main(){
     float valor1 = 0.0;
     float valor2 = 0.0;
     char operacao = ' ';
@@ -51,4 +51,4 @@ int main(){
     
     return 0;
     
-}
+    }
