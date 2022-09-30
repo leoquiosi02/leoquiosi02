@@ -1,18 +1,18 @@
-#include <iostream>
+    #include <iostream>
 
-using namespace std;
+    using namespace std;
 
-int le_valor_qtd (string nome_moeda){
-int quantidade = 0;
+    int le_valor_qtd (string nome_moeda){
+    int quantidade = 0;
 
-do {
-cout << nome_moeda << " : ";
-cin >> quantidade;
-}while (quantidade < 0);
-return quantidade;
-}
+    do {
+    cout << nome_moeda << " : ";
+    cin >> quantidade;
+    }while (quantidade < 0);
+    return quantidade;
+    }
 
-int main(){
+    int main(){
     
     cout << "Digite o numero de moedas: " << endl; 
 
