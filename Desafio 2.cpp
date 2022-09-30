@@ -30,7 +30,6 @@ int main()
     cout << "Maior Numero: \n" << maior << endl;
     cout << "Menor Numero: \n" << menor << endl;
 
-
     return 0;
     
 }
