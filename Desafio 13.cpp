@@ -14,23 +14,23 @@ return quantidade;
 
 int main(){
     
-cout << "Digite o numero de moedas: " << endl; 
-  
-int quant_Um = le_valor_qtd("1 Centavo");
-int quant_Cinco = le_valor_qtd("5 Centavos");
-int quant_Dez = le_valor_qtd("10 Centavos");
-int quant_VinteCinco = le_valor_qtd("25 Centavos");
-int quant_Cinquenta = le_valor_qtd("50 Centavos");
-int quant_UmReal = le_valor_qtd("1 Real");
+    cout << "Digite o numero de moedas: " << endl; 
 
-float valor_Total = quant_Um * 0.01;
-valor_Total += quant_Dez * 0.10;
-valor_Total += quant_VinteCinco * 0.25;
-valor_Total += quant_Cinquenta * 0.50;
-valor_Total += quant_UmReal;
+    int quant_Um = le_valor_qtd("1 Centavo");
+    int quant_Cinco = le_valor_qtd("5 Centavos");
+    int quant_Dez = le_valor_qtd("10 Centavos");
+    int quant_VinteCinco = le_valor_qtd("25 Centavos");
+    int quant_Cinquenta = le_valor_qtd("50 Centavos");
+    int quant_UmReal = le_valor_qtd("1 Real");
 
-cout << "Arthur voce tem: \n" << valor_Total << endl; 
+    float valor_Total = quant_Um * 0.01;
+    valor_Total += quant_Dez * 0.10;
+    valor_Total += quant_VinteCinco * 0.25;
+    valor_Total += quant_Cinquenta * 0.50;
+    valor_Total += quant_UmReal;
 
-return 0;
+    cout << "Arthur voce tem: \n" << valor_Total << endl; 
+
+    return 0;
 
 }
